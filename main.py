@@ -1,8 +1,4 @@
-'''
-Daniel Flockhart - Discord Steam sale bot
-'''
-import time, math, random,bs4,requests,os,re
-from datetime import datetime
+import requests,os,re
 from bs4 import BeautifulSoup
 class sales:
     def __init__(self):
