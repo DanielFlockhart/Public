@@ -16,7 +16,7 @@ class sales:
                 # Short ones glitch it 
                 prev_cost = cost[2:7]
                 new_cost = cost[7:14]
-                line = "The game " + game + " is on sale!, It is on a " + discount + " and now costs " + new_cost + ", it used to cost £" + prev_cost
+                line = f"{game} is on sale!, It is on a {discount} and now costs {new_cost}, it used to cost £{prev_cost}"
                 print(line)
                 file.write(line+"\n")
             except:
